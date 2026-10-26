@@ -1,0 +1,151 @@
+  /* *{
+    margin:10px;
+    padding: 0;
+  }
+  h1, h2 {
+            text-align: center;
+            color:blueviolet;
+        }
+        p {
+            color: blue;
+            font-size: larger;
+        }
+    .tanya {
+        color:aqua;
+        font-size: 20px;
+    }
+    .satu {
+        color: blueviolet;
+    }
+    #satu {
+        color: brown;
+    } */
+
+/* .box {
+    width: 40px;
+    padding: 50px;
+    border: 10px solid black;
+    margin: 40px;
+    background-color: aqua;
+} */
+
+
+/* ini css latihan4 */
+/* body {
+    background-color: rgb(243, 158, 132);
+    margin: 20px;
+    padding: 30px;
+}
+
+h1{
+    text-align: flex;
+    color: brown;
+}
+
+.container{
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+    background-color: antiquewhite;
+    border: 3px solid coral;
+    border-radius: 20px;
+    padding: 20px;
+    gap: 15px;
+}
+
+.item{
+    border-radius: 20px;
+    background-color: rgb(226, 14, 24);
+    padding: 25px;
+    font-weight: bold;
+    text-align: center;
+    color: aliceblue;
+    
+}
+
+.cards{
+    display: flex;
+    margin: 35px;
+    gap: 15px;
+    color: white;
+}
+
+.card{
+    background-color: rgb(226, 14, 24);
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+button{
+    border-radius: 10px;
+    background-color: green;
+    padding: 10px;
+    border: 3px solid coral;
+    color: aliceblue;
+} */
+
+/* ini css semantic html */
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+header{
+    text-align: center;
+    color:brown;
+    padding: 25px;
+    border-bottom: 5px solid;
+}
+nav{
+    display: flex;
+    margin: 20px;
+    justify-content: flex-start;
+    background-color: antiquewhite;
+    border: 3px solid coral;
+    border-radius: 20px;
+    padding: 20px;
+    gap: 15px;
+}
+main{
+    max-width: 1100px;
+    margin: 25px auto;
+    padding: 20px;
+    background-color: antiquewhite;
+    border: 3px solid crimson;
+    border-radius: 10px;
+}
+
+.layout{
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.content{
+    flex: 3;
+    min-width: none;
+}
+
+section{
+background-color: antiquewhite;
+border: 25px;
+padding: 20px;
+margin-bottom: 20px;
+border-radius: 8px;
+}
+
+article{
+    background-color: aliceblue;
+    border-left: 6px solid cornflowerblue;
+    
+}
+
+#tentang{
+    text-align: center;
+    color:brown;
+    padding: 25px;
+    border-bottom: 5px solid;
+}
+

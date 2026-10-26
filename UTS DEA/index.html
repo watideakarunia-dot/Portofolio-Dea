@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio pribadi mahasiswa">
+    <title>Portfolio Mahasiswa</title>
+
+    <!-- Menghubungkan file CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <header id="navbar">
+        <nav class="container nav-container">
+            <a href="#home" class="logo">MyPortfolio.</a>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#tentang">Tentang</a></li>
+                <li><a href="#skill">Skill</a></li>
+                <li><a href="#project">Project</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+            </ul>
+
+            <button type="button" id="theme-toggle" class="theme-btn"
+                aria-pressed="false">
+                Dark Mode
+            </button>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- HOME -->
+        <section id="home">
+            <div class="container hero">
+                <div class="hero-text">
+                    <p class="greeting">HALO, SELAMAT DATANG!</p>
+
+                    <h1>Saya Dea Karuniawati, biasa di panggil dea</h1>
+
+                    <h2>Mahasiswa Program Studi Bisnis Digital</h2>
+
+                    <p><strong>NIM:</strong>40425010</p>
+
+                    <p>
+                        Saya adalah mahasiswa yang tertarik pada bidang
+                        ekonomi, bisnis, dan teknologi digital. Website
+                        ini merupakan portfolio untuk menampilkan profil,
+                        kemampuan, dan project saya.
+                    </p>
+
+                    <a href="#tentang" class="btn">Kenali Saya</a>
+                </div>
+
+                <div>
+                    <img
+                        src="WhatsApp Image 2026-10-26 at 11.12.30 AM.jpeg"
+                        alt="Foto profil mahasiswa"
+                        class="profile-img"
+                    >
+                </div>
+            </div>
+        </section>
+
+        <!-- TENTANG -->
+        <section id="tentang">
+            <div class="container">
+                <h2 class="section-title">Tentang Saya</h2>
+
+                <article class="card">
+                    <h3>Deskripsi Diri</h3>
+
+                    <p>
+                        Saya adalah mahasiswa yang memiliki semangat belajar
+                        tinggi, bertanggung jawab, dan senang mempelajari
+                        hal baru. Saya tertarik dunia bisnis digital, Saya juga
+                        senang bekerja sama dalam tim, mengembangkan
+                        kreativitas, dan meningkatkan kemampuan untuk
+                        mempersiapkan diri menghadapi dunia kerja.
+                    </p>
+                </article>
+
+                <article class="card">
+                    <h3>Riwayat Pendidikan</h3>
+
+                    <div class="table-wrapper">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>No.</th>
+                                    <th>Jenjang</th>
+                                    <th>Nama Institusi</th>
+                                    <th>Tahun</th>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>SD</td>
+                                    <td>SDN 4 Tegalsari</td>
+                                    <td>2018–2019</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>SMP</td>
+                                    <td>SMPN 1 Kandeman</td>
+                                    <td>2019–2022</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>SMA/SMK</td>
+                                    <td>SMKN 1 Kandeman</td>
+                                    <td>2022–2025</td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td>S1</td>
+                                    <td>UIN KH. Abdurrahman Wahid Pekalongan</td>
+                                    <td>2025–Sekarang</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- SKILL -->
+        <section id="skill">
+            <div class="container">
+                <h2 class="section-title">Skill dan Kemampuan</h2>
+
+                <div class="skills-container">
+                    <div class="card">
+                        <h3>Keahlian Saya</h3>
+
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>HTML5</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress" style="--level: 85%"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>CSS</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress" style="--level: 75%"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>JavaScript</span>
+                                <span>60%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress" style="--level: 60%"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Microsoft Office</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress" style="--level: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <h3>Kemampuan Lainnya</h3>
+
+                        <ul class="skill-list">
+                            <li>Komunikasi yang baik</li>
+                            <li>Kerja sama dalam tim</li>
+                            <li>Manajemen waktu</li>
+                            <li>Berpikir kritis</li>
+                            <li>Pemecahan masalah</li>
+                            <li>Microsoft Word dan Excel</li>
+                            <li>Dasar-dasar ekonomi syariah</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECT -->
+        <section id="project">
+            <div class="container">
+                <h2 class="section-title">Project Saya</h2>
+
+                <div class="project-container">
+                    <article class="project-card">
+                        <h3>Project 1: Website Portfolio</h3>
+
+                        <p>
+                            Website portfolio pribadi yang dibuat
+                            menggunakan HTML5, CSS, dan JavaScript untuk
+                            menampilkan profil dan kemampuan mahasiswa.
+                        </p>
+
+                        <p><strong>Teknologi:</strong> HTML, CSS, JavaScript</p>
+
+                        <a href="#home" class="project-link">
+                            Lihat Portfolio
+                        </a>
+                    </article>
+
+                    <article class="project-card">
+                        <h3>Project 2: Website Galeri Foto</h3>
+
+                        <p>
+                           Menyimpan dan mengelola terkait gambar pribadi anda.
+                        </p>
+
+                        <p><strong>Teknologi:</strong> HTML, CSS, PHP</p>
+
+                        <a
+                            href="https://github.com/DeaKaruniawati?tab=repositories/"
+                            class="project-link"
+                        >
+                            Kunjungi GitHub
+                        </a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- KONTAK -->
+        <section id="kontak">
+            <div class="container">
+                <h2 class="section-title">Hubungi Saya</h2>
+
+                <div class="contact-wrapper card">
+                    <p>
+                        Silakan isi formulir berikut untuk mengirimkan pesan.
+                    </p>
+
+                    <form id="contact-form" novalidate>
+                        <div class="form-group">
+                            <label for="nama">Nama Lengkap</label>
+                            <input
+                                type="text"
+                                id="nama"
+                                name="nama"
+                                placeholder="Masukkan nama lengkap"
+                                autocomplete="name"
+                                required
+                            >
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input
+                                type="email"
+                                id="email"
+                                name="email"
+                                placeholder="nama@email.com"
+                                autocomplete="email"
+                                required
+                            >
+                        </div>
+
+                        <div class="form-group">
+                            <label for="pesan">Pesan</label>
+                            <textarea
+                                id="pesan"
+                                name="pesan"
+                                placeholder="Tuliskan pesan kamu..."
+                                required
+                            ></textarea>
+                        </div>
+
+                        <button type="submit" class="btn">
+                            Kirim Pesan
+                        </button>
+                    </form>
+
+                    <div id="form-message" role="status" aria-live="polite"></div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>
+            &copy; <span id="year"></span>
+           Dea Karuniawati.
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Javascript dari 0</title>
+    <!-- <script>
+    // console.log("Hallo 15 dari head");
+    alert("selamat datang di materi javascript");
+    function sayHello(){
+        alert("selamat Datang")
+    }
+    document.write("<h1>helo woi</h1>");
+    document.write("laoposi wa");
+
+    </script> -->
+</head>
+<body>
+<!-- <p> Tutorial Javascript untuk pemula</p>
+<button onclick="sayHello()">klik disini</button>
+NOPIKA SIDIQQQQ zahra pkd -->
+
+<div id="hasil-output"></div>
+<script> 
+console.log("Haloo 15 dari body")
+
+
+var hasil = document.getElementById("hasil-output");
+hasil.innerHTML = "<p>aku suka makan</p>";
+
+// membuat variabel
+var name = "Detik.com";
+var visitorCount = 3355;
+var isActive = true;
+var url = "https://www.detik.com";
+
+// menampilkan variabel ke jendela dialog
+alert("selamat datang " + name);
+
+
+document.write("Nama situs:"+ name+"<br>");
+document.write("jumlah pengunjung:"+ visitorCount+"<br>");
+document.write("status aktif:"+ isActive+"<br>");
+document.write("alamat Url:"+ url);
+
+//logic program
+var nilai = prompt("Inputkan Nilai akhir:");
+var grade= "";
+
+// Mengubah input teks menjadi angka agar perbandingan akurat
+nilai = Number(nilai); 
+
+if (nilai >= 81) {
+    grade = "A";
+} else if (nilai >= 71) {
+    grade = "B+";
+} else if (nilai >= 66) {
+    grade = "B";
+} else if (nilai >= 61) {
+    grade = "C+";
+} else if (nilai >= 56) {
+    grade = "C";
+} else if (nilai >= 51) {
+    grade = "D+";
+} else if (nilai >= 46) {
+    grade = "D";
+} else {
+    grade = "F";
+}
+
+// Perbaikan: Hapus tanda $ menjadi langsung 'grade'
+document.write("Nilai anda adalah" + nilai);
+document.write("Grade Anda adalah: " + grade); 
+
+</script>
+</body>
+</html>
